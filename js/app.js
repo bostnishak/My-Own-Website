@@ -7,13 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
         home: `
             <div class="home-layout">
                 <div class="home-container">
-                    <div class="home-image">
-                        <img src="img/home.png" alt="Home Image">
-                    </div>
-                    <div class="home-content">
+                    <div class="home-content" style="text-align: center; max-width: 700px; margin: 0 auto;">
                         <h1>Welcome to my website!</h1>
                         <p>Hi! I'm İshak Bostan, passionate about mathematics, algorithms and parallelism. Welcome to my homepage. Take a look around and get in touch if you'd like.</p>
-                        <div class="social-links">
+                        <div class="social-links" style="justify-content: center;">
                             <a href="https://linkedin.com/in/ishakbostan" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
                             <a href="https://github.com/bostnishak" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
                             <a href="mailto:ishakbostan@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>

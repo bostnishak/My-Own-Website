@@ -1,12 +1,12 @@
 :root {
-    --bg-color: #f8fafc; /* Lighter background for the full page */
-    --header-bg: #ffffff;
+    --bg-color: #f4efe6; /* Elegant cream background */
+    --header-bg: #ffffff; /* White for cards */
     --text-primary: #334155;
     --text-secondary: #64748b;
     --accent-color: #0f172a;
     --link-color: #475569;
     --link-hover: #0f172a;
-    --border-color: #e2e8f0;
+    --border-color: #e8e1d5; /* Softer border color for cream theme */
 }
 
 * {
@@ -31,9 +31,9 @@ body {
 }
 
 header {
-    background-color: var(--header-bg);
+    background-color: transparent; /* No separated white background */
     padding: 1.5rem 2rem;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: none; /* Removed the line */
     width: 100%;
 }
 
@@ -421,9 +421,9 @@ main {
 }
 
 footer {
-    background-color: var(--header-bg);
+    background-color: transparent; /* No separated white background */
     padding: 1.5rem 2rem;
-    border-top: 1px solid var(--border-color);
+    border-top: none; /* Removed the line */
     width: 100%;
 }
 
