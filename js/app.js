@@ -19,29 +19,29 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 
                 <div class="recent-activities">
-                    <h2>Son Zamanlarda Yaptıklarım</h2>
+                    <h2>Recent Activities</h2>
                     <div class="carousel-wrapper">
                         <button class="carousel-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
                         <div class="carousel-track">
                             <div class="carousel-card">
                                 <h3>ExpenseGuard</h3>
-                                <p>Kurumsal B2B şirketler için yapay zeka destekli gider yönetimi ve fraud tespit (OCR) SaaS platformu geliştirdim.</p>
+                                <p>Developed an AI-driven enterprise expense management and fraud detection (OCR) SaaS platform for B2B companies.</p>
                             </div>
                             <div class="carousel-card">
                                 <h3>Walletly</h3>
-                                <p>Kullanıcı dostu arayüzü ile kişisel finans ve harcama takip uygulaması üzerinde çalıştım.</p>
+                                <p>Worked on a personal finance and smart expense tracking application with a user-friendly interface.</p>
                             </div>
                             <div class="carousel-card">
                                 <h3>GIMBO</h3>
-                                <p>Öğrenciler için ders ve görev yönetimini kolaylaştıran bir masaüstü uygulaması geliştirdim.</p>
+                                <p>Developed a desktop application that streamlines course and task management for students.</p>
                             </div>
                             <div class="carousel-card">
                                 <h3>Pill Reminder</h3>
-                                <p>İlaç takibini kolaylaştıran ve kullanıcı deneyimini iyileştiren mobil sağlık uygulaması.</p>
+                                <p>A mobile health application that simplifies medication tracking and improves the user experience.</p>
                             </div>
                             <div class="carousel-card">
-                                <h3>Google & Microsoft Eğitimleri</h3>
-                                <p>Siber güvenlik ve yapay zeka (AI) alanlarında profesyonel sertifikasyon programlarını tamamladım.</p>
+                                <h3>Google & Microsoft Certifications</h3>
+                                <p>Completed professional certification programs in cybersecurity and artificial intelligence (AI) fundamentals.</p>
                             </div>
                         </div>
                         <button class="carousel-btn next-btn"><i class="fa-solid fa-chevron-right"></i></button>
