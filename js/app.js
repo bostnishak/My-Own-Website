@@ -5,16 +5,48 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const pages = {
         home: `
-            <div class="home-container">
-                <div class="home-image">
-                    <img src="img/home.png" alt="Home Image">
+            <div class="home-layout">
+                <div class="home-container">
+                    <div class="home-image">
+                        <img src="img/home.png" alt="Home Image">
+                    </div>
+                    <div class="home-content">
+                        <h1>Welcome to my website!</h1>
+                        <p>Hi! I'm İshak Bostan, passionate about mathematics, algorithms and parallelism. Welcome to my homepage. Take a look around and get in touch if you'd like.</p>
+                        <div class="social-links">
+                            <a href="#" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="home-content">
-                    <h1>Welcome to my website!</h1>
-                    <p>Hi! I'm İshak Bostan, passionate about mathematics, algorithms and parallelism. Welcome to my homepage. Take a look around and get in touch if you'd like.</p>
-                    <div class="social-links">
-                        <a href="#" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                
+                <div class="recent-activities">
+                    <h2>Son Zamanlarda Yaptıklarım</h2>
+                    <div class="carousel-wrapper">
+                        <button class="carousel-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                        <div class="carousel-track">
+                            <div class="carousel-card">
+                                <h3>Proje Alpha</h3>
+                                <p>Yeni bir web uygulaması üzerinde çalıştım. Modern UI ve performans odaklı.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <h3>Hackathon 2026</h3>
+                                <p>Takımımla birlikte 48 saatte yapay zeka destekli bir eğitim aracı geliştirdik.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <h3>Açık Kaynak Katkısı</h3>
+                                <p>Popüler bir açık kaynak kütüphanesine yeni özellikler ekleyerek katkıda bulundum.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <h3>Makine Öğrenmesi</h3>
+                                <p>Veri bilimi ve makine öğrenmesi üzerine yeni bir sertifika programını tamamladım.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <h3>Kişisel Blog</h3>
+                                <p>Teknoloji ve yazılım üzerine düşüncelerimi paylaştığım yeni blogumu yayına aldım.</p>
+                            </div>
+                        </div>
+                        <button class="carousel-btn next-btn"><i class="fa-solid fa-chevron-right"></i></button>
                     </div>
                 </div>
             </div>
@@ -133,17 +165,38 @@ document.addEventListener('DOMContentLoaded', () => {
             mainContent.style.opacity = 1;
             
             // Re-attach scroll behavior for CV sidebar links after injecting content
-            const scrollLinks = document.querySelectorAll('.scroll-link');
-            scrollLinks.forEach(link => {
-                link.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const targetId = link.getAttribute('href').substring(1);
-                    const targetSection = document.getElementById(targetId);
-                    if (targetSection) {
-                        targetSection.scrollIntoView({ behavior: 'smooth' });
-                    }
+            if (target === 'cv') {
+                const scrollLinks = document.querySelectorAll('.scroll-link');
+                scrollLinks.forEach(link => {
+                    link.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        const targetId = link.getAttribute('href').substring(1);
+                        const targetSection = document.getElementById(targetId);
+                        if (targetSection) {
+                            targetSection.scrollIntoView({ behavior: 'smooth' });
+                        }
+                    });
                 });
-            });
+            }
+            
+            // Attach carousel functionality for Home page
+            if (target === 'home') {
+                const track = document.querySelector('.carousel-track');
+                const prevBtn = document.querySelector('.prev-btn');
+                const nextBtn = document.querySelector('.next-btn');
+                
+                if (track && prevBtn && nextBtn) {
+                    const scrollAmount = 320; // card width + gap
+                    
+                    prevBtn.addEventListener('click', () => {
+                        track.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+                    });
+                    
+                    nextBtn.addEventListener('click', () => {
+                        track.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+                    });
+                }
+            }
             
         }, 300); // 300ms transition time
     }

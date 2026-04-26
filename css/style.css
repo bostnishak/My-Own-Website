@@ -87,6 +87,12 @@ main {
 }
 
 /* Home Page Layout */
+.home-layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .home-container {
     display: flex;
     align-items: flex-start;
@@ -155,6 +161,91 @@ main {
 .social-links a:hover {
     background-color: #475569;
 }
+
+/* Recent Activities Carousel */
+.recent-activities {
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.recent-activities h2 {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.carousel-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.carousel-track {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Firefox */
+}
+
+.carousel-track::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+.carousel-card {
+    flex: 0 0 280px;
+    scroll-snap-align: start;
+    background: var(--header-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-card h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.carousel-card p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+}
+
+.carousel-btn {
+    background: var(--header-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    position: absolute;
+    z-index: 10;
+    color: var(--text-primary);
+    transition: background 0.2s;
+}
+
+.carousel-btn:hover {
+    background: var(--bg-color);
+}
+
+.prev-btn { left: -20px; }
+.next-btn { right: -20px; }
 
 /* About Page Layout */
 .about-container {
