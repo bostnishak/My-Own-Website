@@ -14,8 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         <h1>Welcome to my website!</h1>
                         <p>Hi! I'm İshak Bostan, passionate about mathematics, algorithms and parallelism. Welcome to my homepage. Take a look around and get in touch if you'd like.</p>
                         <div class="social-links">
-                            <a href="#" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="#" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="https://linkedin.com/in/ishakbostan" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/bostnishak" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="mailto:ishakbostan@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
                         </div>
                     </div>
                 </div>
@@ -89,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <strong>Name</strong>
                             <span>İshak Bostan</span>
                             <strong>Email</strong>
-                            <span>ishak[at]example.com</span>
+                            <span><a href="mailto:ishakbostan@gmail.com" style="color: inherit; text-decoration: underline;">ishakbostan@gmail.com</a></span>
                         </div>
 
                         <div id="education" class="cv-section">
