@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <h2>Project Experience</h2>
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                                    <h3>ExpenseGuard – Enterprise AI Expense & Fraud Detection Platform | Lead Developer</h3>
+                                    <h3>ExpenseGuard – Enterprise AI Expense & Fraud Detection Platform | Lead Developer <a href="https://github.com/bostnishak/ExpenseGuard" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
                                     <span class="cv-meta">2024 – Present</span>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                                    <h3>Edulera – Online Education & Certification Platform</h3>
+                                    <h3>Edulera – Online Education & Certification Platform <a href="https://github.com/bostnishak/Edulera-the-Course-Helper-Website" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
                                     <li>Developed a web-based e-learning system featuring automated certification logic that generates "Participation" or "Success" certificates based on quiz performance.</li>
@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                                    <h3>OMDb Movie Application – SPA</h3>
+                                    <h3>OMDb Movie Application – SPA <a href="https://github.com/bostnishak/omdb-project" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
                                     <li>Built a fully responsive, modular Single Page Application (SPA) consuming the OMDb REST API.</li>
@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                                    <h3>GIMBO – Course Helper Application | Team Leader</h3>
+                                    <h3>GIMBO – Course Helper Application | Team Leader <a href="https://github.com/bostnishak/Gimbo-The-Course-Helper-Mobile-Application-" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
                                     <span class="cv-meta">Sep 2024 – Dec 2024</span>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                                    <h3>Pill Reminder – Medication Tracking App | Team Member</h3>
+                                    <h3>Pill Reminder – Medication Tracking App | Team Member <a href="https://github.com/bostnishak/Pill-Reminder-Project-2024-" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
                                     <span class="cv-meta">Jan 2024 – May 2024</span>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                                    <h3>Chat Application for PC</h3>
+                                    <h3>Chat Application for PC <a href="https://github.com/bostnishak/Chat-application-for-PC" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
                                     <li>Developed a real-time TCP messaging application with a graphical user interface (GUI) using Python, Sockets, and Multi-threading.</li>
