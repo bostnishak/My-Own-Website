@@ -29,6 +29,14 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <p>Developed an AI-driven enterprise expense management and fraud detection (OCR) SaaS platform for B2B companies.</p>
                             </div>
                             <div class="carousel-card">
+                                <h3>AHK Türkiye Career Day</h3>
+                                <p>Engaged with industry professionals and explored career opportunities at the 9th Career Day event.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <h3>Google & Microsoft Certifications</h3>
+                                <p>Completed professional certification programs in cybersecurity and artificial intelligence (AI) fundamentals.</p>
+                            </div>
+                            <div class="carousel-card">
                                 <h3>Edulera</h3>
                                 <p>Developed a web-based e-learning system featuring automated certification logic based on quiz performance.</p>
                             </div>
@@ -48,13 +56,10 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <h3>Pill Reminder</h3>
                                 <p>A mobile health application that simplifies medication tracking and improves the user experience.</p>
                             </div>
-                            <div class="carousel-card">
-                                <h3>Google & Microsoft Certifications</h3>
-                                <p>Completed professional certification programs in cybersecurity and artificial intelligence (AI) fundamentals.</p>
-                            </div>
                         </div>
                         <button class="carousel-btn next-btn"><i class="fa-solid fa-chevron-right"></i></button>
                     </div>
+                    <div class="carousel-indicators" id="carouselIndicators"></div>
                 </div>
             </div>
         `,
@@ -79,8 +84,11 @@ document.addEventListener('DOMContentLoaded', () => {
         `,
         cv: `
             <div class="cv-container">
-                <h1 class="cv-title">CV</h1>
-                <p class="cv-intro">Should you have any questions or require a more comprehensive version of my CV, please don't hesitate to reach out.</p>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                    <h1 class="cv-title" style="margin-bottom: 0;">CV</h1>
+                    <a href="docs/Ishak_Bostan_CV.pdf" target="_blank" class="download-btn"><i class="fa-solid fa-download"></i> Download PDF</a>
+                </div>
+                <p class="cv-intro" style="margin-top: 0;">Should you have any questions or require a more comprehensive version of my CV, please don't hesitate to reach out.</p>
                 
                 <div class="cv-layout">
                     <div class="cv-sidebar">
@@ -150,6 +158,9 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>ExpenseGuard – Enterprise AI Expense & Fraud Detection Platform | Lead Developer <a href="https://github.com/bostnishak/ExpenseGuard" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
                                     <span class="cv-meta">2024 – Present</span>
+                                </div>
+                                <div class="project-image-placeholder" style="margin: 15px 0; max-width: 100%; border-radius: 8px; overflow: hidden; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                                    <img src="img/expenseguard.png" alt="ExpenseGuard UI" style="width: 100%; display: block;" onerror="this.parentElement.style.display='none'">
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
                                     <li>Architected a cloud-native, multi-tenant SaaS platform automating B2B expense workflows and AI-driven fraud detection using OpenAI GPT-4 Vision.</li>
@@ -304,16 +315,72 @@ document.addEventListener('DOMContentLoaded', () => {
                 const track = document.querySelector('.carousel-track');
                 const prevBtn = document.querySelector('.prev-btn');
                 const nextBtn = document.querySelector('.next-btn');
+                const indicatorsContainer = document.getElementById('carouselIndicators');
                 
-                if (track && prevBtn && nextBtn) {
-                    const scrollAmount = 320; // card width + gap
+                if (track && prevBtn && nextBtn && indicatorsContainer) {
+                    const cards = Array.from(track.children);
+                    let currentIndex = 0;
+                    
+                    // Create dots
+                    indicatorsContainer.innerHTML = '';
+                    cards.forEach((_, index) => {
+                        const dot = document.createElement('div');
+                        dot.classList.add('carousel-dot');
+                        if (index === 0) dot.classList.add('active');
+                        dot.addEventListener('click', () => scrollToIndex(index));
+                        indicatorsContainer.appendChild(dot);
+                    });
+                    
+                    const dots = document.querySelectorAll('.carousel-dot');
+                    
+                    function scrollToIndex(index) {
+                        if (index < 0 || index >= cards.length) return;
+                        currentIndex = index;
+                        const cardWidth = cards[0].getBoundingClientRect().width;
+                        const gap = parseInt(window.getComputedStyle(track).gap) || 0;
+                        track.scrollTo({ left: index * (cardWidth + gap), behavior: 'smooth' });
+                        updateDots();
+                    }
+                    
+                    function updateDots() {
+                        dots.forEach(dot => dot.classList.remove('active'));
+                        if (dots[currentIndex]) dots[currentIndex].classList.add('active');
+                    }
                     
                     prevBtn.addEventListener('click', () => {
-                        track.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+                        if (currentIndex > 0) scrollToIndex(currentIndex - 1);
                     });
                     
                     nextBtn.addEventListener('click', () => {
-                        track.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+                        if (currentIndex < cards.length - 1) scrollToIndex(currentIndex + 1);
+                    });
+                    
+                    // Auto-play
+                    let autoPlayInterval = setInterval(() => {
+                        if (currentIndex < cards.length - 1) {
+                            scrollToIndex(currentIndex + 1);
+                        } else {
+                            scrollToIndex(0);
+                        }
+                    }, 4000);
+                    
+                    // Pause on hover or click
+                    const wrapper = document.querySelector('.carousel-wrapper');
+                    if (wrapper) {
+                        wrapper.addEventListener('mouseenter', () => clearInterval(autoPlayInterval));
+                        wrapper.addEventListener('touchstart', () => clearInterval(autoPlayInterval));
+                    }
+                    
+                    // Update dots on manual scroll
+                    track.addEventListener('scroll', () => {
+                        const scrollPosition = track.scrollLeft;
+                        const cardWidth = cards[0].getBoundingClientRect().width;
+                        const gap = parseInt(window.getComputedStyle(track).gap) || 0;
+                        const newIndex = Math.round(scrollPosition / (cardWidth + gap));
+                        if (newIndex !== currentIndex && newIndex >= 0 && newIndex < cards.length) {
+                            currentIndex = newIndex;
+                            updateDots();
+                        }
                     });
                 }
             }
