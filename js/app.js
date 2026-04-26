@@ -9,7 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="home-container">
                     <div class="home-content" style="text-align: center; max-width: 700px; margin: 0 auto;">
                         <h1>Welcome to my website!</h1>
-                        <p>Hi! I'm İshak Bostan, passionate about mathematics, algorithms and parallelism. Welcome to my homepage. Take a look around and get in touch if you'd like.</p>
+                        <p style="display: inline-block; padding: 6px 12px; border: 1px solid rgba(0,0,0,0.1); border-radius: 20px; font-size: 0.9rem; font-weight: 500; margin-bottom: 15px; color: #444;"><i class="fa-solid fa-briefcase" style="margin-right: 5px;"></i> Actively seeking Summer Internship / Part-time position</p>
+                        <p>Hi! I'm İshak Bostan, a Computer Engineering student and Full Stack Developer passionate about Artificial Intelligence, Cybersecurity, and building scalable enterprise software. Welcome to my homepage. Take a look around and get in touch if you'd like to connect!</p>
                         <div class="social-links" style="justify-content: center;">
                             <a href="https://linkedin.com/in/ishakbostan" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
                             <a href="https://github.com/bostnishak" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
@@ -70,6 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>I have hands-on experience in mobile application development, team leadership, and systematic debugging. My technical skill set spans across various programming languages including C++, Python, Java, Dart, and JavaScript, along with frameworks like Flutter and ASP.NET Core.</p>
                         <p>Throughout my studies, I've led development teams for various applications such as ExpenseGuard (an Enterprise AI Expense Platform), Walletly (Smart Expense Tracker), and GIMBO (Course Helper Application). I also hold professional certificates from Google and Microsoft in Cybersecurity and AI Fundamentals.</p>
                         <p>Outside of my core academic work, I'm an active member of several student clubs, including the Computer Engineering Society and Google Developer Student Clubs (GDSC) at Beykoz University. I am dedicated to continuous improvement in algorithm design and analytical thinking, bridging the gap between academic theory and practical implementation.</p>
+                        <p>When I step away from the keyboard, I believe in maintaining a healthy balance. I love staying active through fitness, playing football, and table tennis. On my creative side, I enjoy playing the guitar, and I actually have a soft spot for building and collecting Legos! These hobbies help me recharge and keep my problem-solving skills sharp in a fun way.</p>
                         <p>Feel free to reach out if you'd like to connect, collaborate, or learn more!</p>
                     </div>
                 </div>
@@ -124,9 +126,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             <h2>Technical Skills</h2>
                             <div class="cv-item">
                                 <p><strong>Programming Languages:</strong> C++, C, Python, Java, JavaScript, C#, Dart, CSS/HTML</p>
-                                <p><strong>Frameworks & Tools:</strong> ASP.NET Core Web API, Flutter, FastAPI, Docker, RabbitMQ, Redis, SQL (PostgreSQL), Git</p>
-                                <p><strong>Core Competencies:</strong> SOA / Clean Architecture, Data Structures & Algorithms, OOP, Debugging, Agile Teamwork</p>
-                                <p><strong>Platforms & OS:</strong> Windows, Linux, AWS S3</p>
+                                <p><strong>Frameworks & Tools:</strong> ASP.NET Core Web API, Flutter, FastAPI, Docker, RabbitMQ, Redis, SQL (PostgreSQL), Git, Google Analytics, Android Studio, Visual Studio</p>
+                                <p><strong>Core Competencies:</strong> SOA / Clean Architecture, Microservices, Prompt Engineering, Project Management, Network Security & Threat Detection, Data Protection, Data Structures & Algorithms, OOP, Agile Teamwork</p>
+                                <p><strong>Platforms & OS:</strong> Windows, Linux, AWS S3, Microsoft Azure</p>
                                 <p><strong>Languages:</strong> Turkish (Native), English (C1 – Advanced), German (A2 – Elementary)</p>
                             </div>
                         </div>
@@ -219,6 +221,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
                         <div id="volunteering" class="cv-section">
                             <h2>Extracurricular & Volunteering</h2>
+                            <div class="cv-item">
+                                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                                    <h3>9th Career Day (AHK Türkiye) | Attendee</h3>
+                                    <span class="cv-meta">Apr 2026</span>
+                                </div>
+                                <p style="margin-top: 0.5rem;">Engaged with industry professionals and explored career opportunities at the career fair organized by the German-Turkish Chamber of Commerce and Industry.</p>
+                            </div>
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>Beykoz University Computer Engineering Society | Society Member</h3>
