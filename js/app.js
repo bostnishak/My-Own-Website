@@ -57,11 +57,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         <img src="img/about.png" alt="Profile Picture">
                     </div>
                     <div class="about-text">
-                        <p>Hi! I'm İshak Bostan. My main academic interests lie in mathematics, algorithms and, more recently, parallel computing, which is a field I discovered and quickly came to enjoy. What fascinates me most is not just writing code, but understanding the theoretical and mathematical foundations that drive efficient, elegant systems.</p>
-                        <p>During my studies, I've explored (and am still exploring) a variety of topics, from systems programming to discrete mathematics and logic. I enjoy diving into the abstract principles that underpin computational ideas and the theoretical foundations that support them.</p>
-                        <p>Outside of academics, I've been involved in various student organisations as well as musical ensembles like choirs and orchestras. Music has always been an important part of my life. The violin is my primary instrument, and I also enjoy playing the guitar.</p>
-                        <p>I'm also passionate about languages. At the moment, I am learning French, and I'm already thinking about what comes next. Perhaps Italian or even Romansh, since I'm in Switzerland :)</p>
-                        <p>Feel free to reach out if you'd like to connect, collaborate or learn more!</p>
+                        <p>Hi! I'm İshak Bostan, a Computer Engineering student at Beykoz University with a strong focus on artificial intelligence and cybersecurity. I'm actively seeking opportunities to contribute to real-world projects and gain professional experience.</p>
+                        <p>I have hands-on experience in mobile application development, team leadership, and systematic debugging. My technical skill set spans across various programming languages including C++, Python, Java, Dart, and JavaScript, along with frameworks like Flutter.</p>
+                        <p>Throughout my studies, I've led development teams for various applications such as a Smart Expense Tracker (Walletly) and a Course Helper Application (GIMBO). I also hold professional certificates from Google and Microsoft in Cybersecurity and AI Fundamentals.</p>
+                        <p>Outside of my core academic work, I'm an active member of several student clubs, including the Computer Engineering Society and Google Developer Student Clubs (GDSC) at Beykoz University, where I organize study groups and engage in collaborative learning.</p>
+                        <p>Feel free to reach out if you'd like to connect, collaborate, or learn more!</p>
                     </div>
                 </div>
             </div>
@@ -74,11 +74,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="cv-layout">
                     <div class="cv-sidebar">
                         <ul>
+                            <li><a href="#summary" class="scroll-link">Summary</a></li>
                             <li><a href="#education" class="scroll-link">Education</a></li>
-                            <li><a href="#volunteering" class="scroll-link">Volunteering</a></li>
-                            <li><a href="#activities" class="scroll-link">Activities & Societies</a></li>
-                            <li><a href="#skills" class="scroll-link">Skills</a></li>
-                            <li><a href="#languages" class="scroll-link">Languages</a></li>
+                            <li><a href="#skills" class="scroll-link">Technical Skills</a></li>
+                            <li><a href="#certifications" class="scroll-link">Certifications</a></li>
+                            <li><a href="#projects" class="scroll-link">Project Experience</a></li>
+                            <li><a href="#volunteering" class="scroll-link">Extracurricular</a></li>
+                            <li><a href="#references" class="scroll-link">References</a></li>
                         </ul>
                     </div>
                     
@@ -90,61 +92,125 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span><a href="mailto:ishakbostan@gmail.com" style="color: inherit; text-decoration: underline;">ishakbostan@gmail.com</a></span>
                         </div>
 
+                        <div id="summary" class="cv-section">
+                            <h2>Summary</h2>
+                            <div class="cv-item">
+                                <p>Computer Engineering student at Beykoz University (expected graduation: June 2027) with a strong focus on artificial intelligence and cybersecurity. Certified by Google in Cybersecurity and AI Fundamentals. Skilled in C++, Python, Java, Dart/Flutter, and JavaScript, complementing hands-on experience in mobile application development, team leadership, and debugging. Actively seeking a summer internship or part-time junior engineer position to contribute to real-world projects and gain professional experience.</p>
+                            </div>
+                        </div>
+
                         <div id="education" class="cv-section">
                             <h2>Education</h2>
                             <div class="cv-item">
-                                <h3>University Name</h3>
-                                <div class="cv-meta">BSc Computer Science</div>
-                                <div class="cv-meta">Sep 2024 - Present</div>
-                            </div>
-                            <div class="cv-item">
-                                <h3>High School Name</h3>
-                                <div class="cv-meta">Matura</div>
-                                <div class="cv-meta">Sep 2019 - Jun 2024</div>
-                            </div>
-                        </div>
-
-                        <div id="volunteering" class="cv-section">
-                            <h2>Volunteering</h2>
-                            <div class="cv-item">
-                                <h3>Semester Spokesperson</h3>
-                                <div class="cv-meta">Association of Computer Science Students</div>
-                                <div class="cv-meta">Representative for Algorithms and Data Structures - Fall 2025</div>
-                                <div class="cv-meta">Sep 2025 - Present</div>
-                            </div>
-                            <div class="cv-item">
-                                <h3>Member of Peer Support Project</h3>
-                                <div class="cv-meta">Lower Grade Support Programme</div>
-                                <div class="cv-meta">Tutoring and Mentorship</div>
-                                <div class="cv-meta">Sep 2019 - Jun 2024</div>
-                            </div>
-                        </div>
-
-                        <div id="activities" class="cv-section">
-                            <h2>Activities & Societies</h2>
-                            <div class="cv-item">
-                                <h3>Member of the Art Exhibition Team</h3>
-                                <div class="cv-meta">Associated with High School</div>
-                                <div class="cv-meta">Sep 2023 - Jan 2024</div>
-                            </div>
-                            <div class="cv-item">
-                                <h3>Member of the String Orchestra</h3>
-                                <div class="cv-meta">Associated with High School</div>
-                                <div class="cv-meta">Sep 2022 - Jun 2023</div>
+                                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                                    <h3>Beykoz University</h3>
+                                    <span class="cv-meta">Expected Graduation: June 2027</span>
+                                </div>
+                                <div class="cv-meta">Faculty of Engineering and Architecture</div>
+                                <p>Bachelor of Science in Computer Engineering (English)</p>
                             </div>
                         </div>
                         
                         <div id="skills" class="cv-section">
-                            <h2>Skills</h2>
+                            <h2>Technical Skills</h2>
                             <div class="cv-item">
-                                <p>Java, C++, Python, HTML/CSS, JavaScript</p>
+                                <p><strong>Programming Languages:</strong> C++, C, Python, Java, JavaScript, C#, Dart, CSS/HTML</p>
+                                <p><strong>Frameworks & Tools:</strong> Flutter, Android Studio, SQL, Git, Microsoft Office Suite, Google Workspace</p>
+                                <p><strong>Core Competencies:</strong> Data Structures & Algorithms, Problem Solving, Debugging, UI/UX Design, Agile Teamwork</p>
+                                <p><strong>Platforms & OS:</strong> Windows, Linux, Logisim</p>
+                                <p><strong>Languages:</strong> Turkish (Native), English (C1 – Advanced), German (A2 – Elementary)</p>
                             </div>
                         </div>
 
-                        <div id="languages" class="cv-section">
-                            <h2>Languages</h2>
+                        <div id="certifications" class="cv-section">
+                            <h2>Certifications</h2>
                             <div class="cv-item">
-                                <p>Turkish (Native), English (Fluent), German (Advanced)</p>
+                                <ul style="padding-left: 1.2rem; margin: 0; color: var(--text-primary); line-height: 1.6;">
+                                    <li>Google Cybersecurity Professional Certificate (Coursera-Google) - <i>Jan 2026</i></li>
+                                    <li>AI Essentials (Coursera-Google) - <i>Mar 2026</i></li>
+                                    <li>Microsoft AI & ML (Coursera-Microsoft)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div id="projects" class="cv-section">
+                            <h2>Project Experience</h2>
+                            <div class="cv-item">
+                                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                                    <h3>Walletly – Smart Expense Tracker | Team Leader</h3>
+                                    <span class="cv-meta">Jan 2025 – May 2025</span>
+                                </div>
+                                <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
+                                    <li>Led project team: organized meetings, set milestones, and ensured timely delivery of the product.</li>
+                                    <li>Made key architectural decisions and aligned the team's technical direction with project goals and timeline.</li>
+                                    <li>Focused on UI/UX improvements to deliver a polished, user-friendly personal finance management experience.</li>
+                                </ul>
+                            </div>
+                            <div class="cv-item">
+                                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                                    <h3>GIMBO – Course Helper Application | Team Leader</h3>
+                                    <span class="cv-meta">Sep 2024 – Dec 2024</span>
+                                </div>
+                                <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
+                                    <li>Led the full development lifecycle as Team Leader: task distribution, technical guidance, and progress tracking.</li>
+                                    <li>Conducted user needs analysis and contributed actively to design and architecture decisions.</li>
+                                    <li>Delivered the desktop application for student course/task management on schedule and at target quality.</li>
+                                </ul>
+                            </div>
+                            <div class="cv-item">
+                                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                                    <h3>Pill Reminder – Medication Tracking App | Team Member</h3>
+                                    <span class="cv-meta">Jan 2024 – May 2024</span>
+                                </div>
+                                <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
+                                    <li>Developed core modules and performed systematic debugging throughout the coding lifecycle.</li>
+                                    <li>Proactively identified potential UX issues and refined the interface for a seamless user experience.</li>
+                                    <li>Collaborated closely with teammates on module integration, ensuring smooth technical workflow.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div id="volunteering" class="cv-section">
+                            <h2>Extracurricular & Volunteering</h2>
+                            <div class="cv-item">
+                                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                                    <h3>Beykoz University Computer Engineering Society | Society Member</h3>
+                                    <span class="cv-meta">Oct 2023 – Present</span>
+                                </div>
+                                <p style="margin-top: 0.5rem;">Organized technical study groups focusing on Object-Oriented Programming (OOP) concepts and database management systems.</p>
+                            </div>
+                            <div class="cv-item">
+                                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                                    <h3>Beykoz University Software Engineering Club | Club Member</h3>
+                                    <span class="cv-meta">Dec 2024 – Apr 2026</span>
+                                </div>
+                                <p style="margin-top: 0.5rem;">Engaged in peer code review sessions and collaborative debugging practices to improve overall code quality and maintainability.</p>
+                            </div>
+                            <div class="cv-item">
+                                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                                    <h3>Google Developer Student Clubs (GDSC) Beykoz University | Club Member</h3>
+                                    <span class="cv-meta">Jan 2024 – Jun 2025</span>
+                                </div>
+                                <p style="margin-top: 0.5rem;">Attended specialized training sessions on Artificial Intelligence and Cybersecurity fundamentals to stay updated on emerging industry trends.</p>
+                            </div>
+                        </div>
+
+                        <div id="references" class="cv-section">
+                            <h2>References</h2>
+                            <div class="cv-item">
+                                <h3>Coşar Baykal</h3>
+                                <div class="cv-meta">Chief Architect Director, Product Development | Etiya</div>
+                                <p><a href="mailto:cosar.baykal@etiya.com" style="color: var(--link-color);">cosar.baykal@etiya.com</a></p>
+                            </div>
+                            <div class="cv-item">
+                                <h3>Abdurazzag Ali A. Aburas</h3>
+                                <div class="cv-meta">Professor, Department of Computer Engineering | Beykoz University</div>
+                                <p><a href="mailto:abdurazzagaliaaburas@beykoz.edu.tr" style="color: var(--link-color);">abdurazzagaliaaburas@beykoz.edu.tr</a></p>
+                            </div>
+                            <div class="cv-item">
+                                <h3>Mustafa Cem Kasapbaşı</h3>
+                                <div class="cv-meta">Associate Professor, Department of Computer Engineering | Beykoz University</div>
+                                <p><a href="mailto:mustafacemkasapbasi@beykoz.edu.tr" style="color: var(--link-color);">mustafacemkasapbasi@beykoz.edu.tr</a></p>
                             </div>
                         </div>
                     </div>
