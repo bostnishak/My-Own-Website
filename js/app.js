@@ -24,24 +24,24 @@ document.addEventListener('DOMContentLoaded', () => {
                         <button class="carousel-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
                         <div class="carousel-track">
                             <div class="carousel-card">
-                                <h3>Proje Alpha</h3>
-                                <p>Yeni bir web uygulaması üzerinde çalıştım. Modern UI ve performans odaklı.</p>
+                                <h3>ExpenseGuard</h3>
+                                <p>Kurumsal B2B şirketler için yapay zeka destekli gider yönetimi ve fraud tespit (OCR) SaaS platformu geliştirdim.</p>
                             </div>
                             <div class="carousel-card">
-                                <h3>Hackathon 2026</h3>
-                                <p>Takımımla birlikte 48 saatte yapay zeka destekli bir eğitim aracı geliştirdik.</p>
+                                <h3>Walletly</h3>
+                                <p>Kullanıcı dostu arayüzü ile kişisel finans ve harcama takip uygulaması üzerinde çalıştım.</p>
                             </div>
                             <div class="carousel-card">
-                                <h3>Açık Kaynak Katkısı</h3>
-                                <p>Popüler bir açık kaynak kütüphanesine yeni özellikler ekleyerek katkıda bulundum.</p>
+                                <h3>GIMBO</h3>
+                                <p>Öğrenciler için ders ve görev yönetimini kolaylaştıran bir masaüstü uygulaması geliştirdim.</p>
                             </div>
                             <div class="carousel-card">
-                                <h3>Makine Öğrenmesi</h3>
-                                <p>Veri bilimi ve makine öğrenmesi üzerine yeni bir sertifika programını tamamladım.</p>
+                                <h3>Pill Reminder</h3>
+                                <p>İlaç takibini kolaylaştıran ve kullanıcı deneyimini iyileştiren mobil sağlık uygulaması.</p>
                             </div>
                             <div class="carousel-card">
-                                <h3>Kişisel Blog</h3>
-                                <p>Teknoloji ve yazılım üzerine düşüncelerimi paylaştığım yeni blogumu yayına aldım.</p>
+                                <h3>Google & Microsoft Eğitimleri</h3>
+                                <p>Siber güvenlik ve yapay zeka (AI) alanlarında profesyonel sertifikasyon programlarını tamamladım.</p>
                             </div>
                         </div>
                         <button class="carousel-btn next-btn"><i class="fa-solid fa-chevron-right"></i></button>
@@ -58,8 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                     <div class="about-text">
                         <p>Hi! I'm İshak Bostan, a Computer Engineering student at Beykoz University with a strong focus on artificial intelligence and cybersecurity. I'm actively seeking opportunities to contribute to real-world projects and gain professional experience.</p>
-                        <p>I have hands-on experience in mobile application development, team leadership, and systematic debugging. My technical skill set spans across various programming languages including C++, Python, Java, Dart, and JavaScript, along with frameworks like Flutter.</p>
-                        <p>Throughout my studies, I've led development teams for various applications such as a Smart Expense Tracker (Walletly) and a Course Helper Application (GIMBO). I also hold professional certificates from Google and Microsoft in Cybersecurity and AI Fundamentals.</p>
+                        <p>I have hands-on experience in mobile application development, team leadership, and systematic debugging. My technical skill set spans across various programming languages including C++, Python, Java, Dart, and JavaScript, along with frameworks like Flutter and ASP.NET Core.</p>
+                        <p>Throughout my studies, I've led development teams for various applications such as ExpenseGuard (an Enterprise AI Expense Platform), Walletly (Smart Expense Tracker), and GIMBO (Course Helper Application). I also hold professional certificates from Google and Microsoft in Cybersecurity and AI Fundamentals.</p>
                         <p>Outside of my core academic work, I'm an active member of several student clubs, including the Computer Engineering Society and Google Developer Student Clubs (GDSC) at Beykoz University, where I organize study groups and engage in collaborative learning.</p>
                         <p>Feel free to reach out if you'd like to connect, collaborate, or learn more!</p>
                     </div>
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div id="summary" class="cv-section">
                             <h2>Summary</h2>
                             <div class="cv-item">
-                                <p>Computer Engineering student at Beykoz University (expected graduation: June 2027) with a strong focus on artificial intelligence and cybersecurity. Certified by Google in Cybersecurity and AI Fundamentals. Skilled in C++, Python, Java, Dart/Flutter, and JavaScript, complementing hands-on experience in mobile application development, team leadership, and debugging. Actively seeking a summer internship or part-time junior engineer position to contribute to real-world projects and gain professional experience.</p>
+                                <p>Computer Engineering student at Beykoz University (expected graduation: June 2027) with a strong focus on artificial intelligence and cybersecurity. Certified by Google in Cybersecurity and AI Fundamentals. Skilled in C++, Python, Java, Dart/Flutter, JavaScript, and .NET, complementing hands-on experience in mobile application development, enterprise SaaS architecture, team leadership, and debugging. Actively seeking a summer internship or part-time junior engineer position to contribute to real-world projects and gain professional experience.</p>
                             </div>
                         </div>
 
@@ -115,9 +115,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             <h2>Technical Skills</h2>
                             <div class="cv-item">
                                 <p><strong>Programming Languages:</strong> C++, C, Python, Java, JavaScript, C#, Dart, CSS/HTML</p>
-                                <p><strong>Frameworks & Tools:</strong> Flutter, Android Studio, SQL, Git, Microsoft Office Suite, Google Workspace</p>
-                                <p><strong>Core Competencies:</strong> Data Structures & Algorithms, Problem Solving, Debugging, UI/UX Design, Agile Teamwork</p>
-                                <p><strong>Platforms & OS:</strong> Windows, Linux, Logisim</p>
+                                <p><strong>Frameworks & Tools:</strong> ASP.NET Core Web API, Flutter, FastAPI, Docker, RabbitMQ, Redis, SQL (PostgreSQL), Git</p>
+                                <p><strong>Core Competencies:</strong> SOA / Clean Architecture, Data Structures & Algorithms, OOP, Debugging, Agile Teamwork</p>
+                                <p><strong>Platforms & OS:</strong> Windows, Linux, AWS S3</p>
                                 <p><strong>Languages:</strong> Turkish (Native), English (C1 – Advanced), German (A2 – Elementary)</p>
                             </div>
                         </div>
@@ -135,6 +135,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
                         <div id="projects" class="cv-section">
                             <h2>Project Experience</h2>
+                            <div class="cv-item">
+                                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                                    <h3>ExpenseGuard – Enterprise AI Expense & Fraud Detection Platform | Lead Developer</h3>
+                                    <span class="cv-meta">2024 – Present</span>
+                                </div>
+                                <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
+                                    <li>Architected a cloud-native, multi-tenant SaaS platform automating B2B expense workflows and AI-driven fraud detection using OpenAI GPT-4 Vision.</li>
+                                    <li>Developed a highly scalable backend with ASP.NET Core 9, PostgreSQL (pgcrypto encryption), and Redis, integrated with a Python/FastAPI AI service via RabbitMQ.</li>
+                                    <li>Implemented robust security measures including JWT authentication, Role-Based Access Control (RBAC), real-time budget tracking, and IDOR protection.</li>
+                                    <li>Designed a fast, modular frontend using Vanilla JS (Glassmorphism UI) and built a cross-platform mobile application with Flutter for on-the-go receipt scanning.</li>
+                                </ul>
+                            </div>
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>Walletly – Smart Expense Tracker | Team Leader</h3>
