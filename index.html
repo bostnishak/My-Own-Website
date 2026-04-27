@@ -43,7 +43,14 @@
                         <li><a href="#" data-target="home">Home</a></li>
                         <li><a href="#" data-target="about">About</a></li>
                         <li><a href="#" data-target="cv">CV</a></li>
-                        <li><a href="index-tr.html" class="lang-btn" title="Türkçe">EN</a></li>
+                        <li class="lang-dropdown">
+                            <a href="#" class="lang-btn"><i class="fa-solid fa-globe"></i> EN</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">English</a></li>
+                                <li><a href="index-tr.html">Türkçe</a></li>
+                                <li><a href="index-de.html">Deutsch</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -51,7 +58,88 @@
 
         <!-- The main content that will be overridden dynamically -->
         <main id="main-content">
-            <!-- Content will be injected here by app.js -->
+
+            <div class="home-layout">
+                <div class="home-container">
+                    <div class="home-content" style="text-align: center; max-width: 700px; margin: 0 auto;">
+                        <h1>Welcome to my website!</h1>
+                        <p style="display: inline-block; padding: 6px 12px; border: 1px solid rgba(0,0,0,0.1); border-radius: 20px; font-size: 0.9rem; font-weight: 500; margin-bottom: 15px; color: #444;"><i class="fa-solid fa-briefcase" style="margin-right: 5px;"></i> Actively seeking Summer Internship / Part-time position</p>
+                        <p>Hi! I'm İshak Bostan, a Computer Engineering student and Full Stack Developer passionate about Artificial Intelligence, Cybersecurity, and building scalable enterprise software. Welcome to my homepage. Take a look around and get in touch if you'd like to connect!</p>
+                        <div class="social-links" style="justify-content: center;">
+                            <a href="https://linkedin.com/in/ishakbostan" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/bostnishak" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="mailto:ishakbostan@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="recent-activities">
+                    <h2>Recent Activities</h2>
+                    <div class="carousel-wrapper">
+                        <button class="carousel-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                        <div class="carousel-track">
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Apr 25, 2026</span>
+                                <h3>AHK Türkiye Career Day</h3>
+                                <p>Engaged with industry professionals and explored career opportunities at the 9th Career Day event.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Apr 2026</span>
+                                <h3>AI & Machine Learning Certification</h3>
+                                <p>Completed the AI & Machine Learning professional certification program.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Mar 2026</span>
+                                <h3>Google AI Essentials Certification</h3>
+                                <p>Completed the Google AI Essentials professional certification program.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Mar 2026</span>
+                                <h3>OMDb Movie Application</h3>
+                                <p>Built a responsive Single Page Application (SPA) utilizing vanilla JavaScript and the OMDb REST API.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Feb 2026 - Present</span>
+                                <h3>ExpenseGuard</h3>
+                                <p>Developed an AI-driven enterprise expense management and fraud detection (OCR) SaaS platform for B2B companies.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2026 - Present</span>
+                                <h3>Edulera</h3>
+                                <p>Developed a web-based e-learning system featuring automated certification logic based on quiz performance.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2026 - Present</span>
+                                <h3>Chat Application for PC</h3>
+                                <p>Developed a real-time TCP messaging application with a graphical user interface (GUI) using Python, Sockets, and Multi-threading.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2026</span>
+                                <h3>Google Cybersecurity Certification</h3>
+                                <p>Completed the Google Cybersecurity Professional Certification program.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2025 - May 2025</span>
+                                <h3>Walletly</h3>
+                                <p>Worked on a personal finance and smart expense tracking application with a user-friendly interface.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Sep 2024 - Dec 2024</span>
+                                <h3>GIMBO</h3>
+                                <p>Developed a desktop application that streamlines course and task management for students.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2024 - Jun 2024</span>
+                                <h3>Pill Reminder</h3>
+                                <p>A mobile health application that simplifies medication tracking and improves the user experience.</p>
+                            </div>
+                        </div>
+                        <button class="carousel-btn next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                    <div class="carousel-indicators" id="carouselIndicators"></div>
+                </div>
+            </div>
+        
         </main>
 
         <footer>
@@ -63,6 +151,7 @@
         </footer>
     </div>
 
+    <script src="js/translations.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>

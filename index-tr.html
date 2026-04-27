@@ -43,7 +43,14 @@
                         <li><a href="#" data-target="home">Ana Sayfa</a></li>
                         <li><a href="#" data-target="about">Hakkımda</a></li>
                         <li><a href="#" data-target="cv">Özgeçmiş</a></li>
-                        <li><a href="index-de.html" class="lang-btn" title="Deutsch">TR</a></li>
+                        <li class="lang-dropdown">
+                            <a href="#" class="lang-btn"><i class="fa-solid fa-globe"></i> TR</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">English</a></li>
+                                <li><a href="index-tr.html">Türkçe</a></li>
+                                <li><a href="index-de.html">Deutsch</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -51,7 +58,88 @@
 
         <!-- The main content that will be overridden dynamically -->
         <main id="main-content">
-            <!-- Content will be injected here by app-tr.js -->
+
+            <div class="home-layout">
+                <div class="home-container">
+                    <div class="home-content" style="text-align: center; max-width: 700px; margin: 0 auto;">
+                        <h1>Web siteme hoş geldiniz!</h1>
+                        <p style="display: inline-block; padding: 6px 12px; border: 1px solid rgba(0,0,0,0.1); border-radius: 20px; font-size: 0.9rem; font-weight: 500; margin-bottom: 15px; color: #444;"><i class="fa-solid fa-briefcase" style="margin-right: 5px;"></i> Yaz Stajı / Yarı zamanlı pozisyon arayışındayım</p>
+                        <p>Merhaba! Ben İshak Bostan, Yapay Zeka, Siber Güvenlik ve ölçeklenebilir kurumsal yazılımlar geliştirmeye tutkuyla bağlı bir Bilgisayar Mühendisliği öğrencisi ve Full Stack Geliştiriciyim. Ana sayfama hoş geldiniz. İnceleyebilir ve bağlantı kurmak isterseniz benimle iletişime geçebilirsiniz!</p>
+                        <div class="social-links" style="justify-content: center;">
+                            <a href="https://linkedin.com/in/ishakbostan" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/bostnishak" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="mailto:ishakbostan@gmail.com" aria-label="E-posta"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="recent-activities">
+                    <h2>Son Aktiviteler</h2>
+                    <div class="carousel-wrapper">
+                        <button class="carousel-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                        <div class="carousel-track">
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">25 Nis 2026</span>
+                                <h3>AHK Türkiye Kariyer Günü</h3>
+                                <p>9. Kariyer Günü etkinliğinde sektör profesyonelleriyle bir araya geldim ve kariyer fırsatlarını değerlendirdim.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Nis 2026</span>
+                                <h3>AI & Machine Learning Sertifikası</h3>
+                                <p>Yapay Zeka ve Makine Öğrenmesi profesyonel sertifika programını başarıyla tamamladım.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Mar 2026</span>
+                                <h3>Google Yapay Zeka Temelleri Sertifikası</h3>
+                                <p>Google Yapay Zeka Temelleri (AI Essentials) profesyonel sertifika programını başarıyla tamamladım.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Mar 2026</span>
+                                <h3>OMDb Film Uygulaması</h3>
+                                <p>Saf JavaScript ve OMDb REST API kullanarak duyarlı (responsive) bir Tek Sayfa Uygulaması (SPA) geliştirdim.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Şub 2026 - Günümüz</span>
+                                <h3>ExpenseGuard</h3>
+                                <p>B2B şirketleri için yapay zeka destekli kurumsal masraf yönetimi ve sahtekarlık tespiti (OCR) sağlayan SaaS platformu geliştirdim.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Oca 2026 - Günümüz</span>
+                                <h3>Edulera</h3>
+                                <p>Test performansına dayalı otomatik sertifikalandırma mantığı içeren web tabanlı bir e-öğrenme sistemi geliştirdim.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Oca 2026 - Günümüz</span>
+                                <h3>PC için Sohbet Uygulaması</h3>
+                                <p>Python, Soketler ve Çoklu İş Parçacığı (Multi-threading) kullanarak grafik kullanıcı arayüzüne (GUI) sahip gerçek zamanlı bir TCP mesajlaşma uygulaması geliştirdim.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Oca 2026</span>
+                                <h3>Google Siber Güvenlik Sertifikası</h3>
+                                <p>Google Siber Güvenlik Profesyonel Sertifika programını başarıyla tamamladım.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Oca 2025 - May 2025</span>
+                                <h3>Walletly</h3>
+                                <p>Kullanıcı dostu arayüze sahip bir kişisel finans ve akıllı harcama takip uygulaması üzerinde çalıştım.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Eyl 2024 - Ara 2024</span>
+                                <h3>GIMBO</h3>
+                                <p>Öğrenciler için ders ve görev yönetimini kolaylaştıran bir masaüstü uygulaması geliştirdim.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Oca 2024 - Haz 2024</span>
+                                <h3>Pill Reminder (İlaç Hatırlatıcı)</h3>
+                                <p>İlaç takibini kolaylaştıran ve kullanıcı deneyimini iyileştiren bir mobil sağlık uygulaması.</p>
+                            </div>
+                        </div>
+                        <button class="carousel-btn next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                    <div class="carousel-indicators" id="carouselIndicators"></div>
+                </div>
+            </div>
+        
         </main>
 
         <footer>
@@ -63,6 +151,7 @@
         </footer>
     </div>
 
-    <script src="js/app-tr.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
