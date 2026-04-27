@@ -56,8 +56,8 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                             <div class="carousel-card">
                                 <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Nis 2026</span>
-                                <h3>Microsoft AI & ML Sertifikası</h3>
-                                <p>Microsoft Yapay Zeka ve Makine Öğrenmesi profesyonel sertifika programını başarıyla tamamladım.</p>
+                                <h3>AI & Machine Learning Sertifikası</h3>
+                                <p>Yapay Zeka ve Makine Öğrenmesi profesyonel sertifika programını başarıyla tamamladım.</p>
                             </div>
                             <div class="carousel-card">
                                 <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Mar 2026</span>
@@ -193,9 +193,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             <h2>Sertifikalar</h2>
                             <div class="cv-item">
                                 <ul style="padding-left: 1.2rem; margin: 0; color: var(--text-primary); line-height: 1.6;">
-                                    <li>Google Siber Güvenlik Profesyonel Sertifikası (Coursera-Google) - <i>Oca 2026</i></li>
-                                    <li>Yapay Zeka Temelleri (Coursera-Google) - <i>Mar 2026</i></li>
-                                    <li>Microsoft AI & ML (Coursera-Microsoft) - <i>Nis 2026</i></li>
+                                    <li>Google Siber Güvenlik Profesyonel Sertifikası (Coursera-Google) <a href="https://coursera.org/share/e27c2e05caf88dfcbb78b26118aed218" target="_blank" style="color: var(--text-primary); font-size: 0.85em; margin-left: 5px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> - <i>Oca 2026</i></li>
+                                    <li>Yapay Zeka Temelleri (Coursera-Google) <a href="https://coursera.org/share/7d0a3c97773eda9253f971c33aec788c" target="_blank" style="color: var(--text-primary); font-size: 0.85em; margin-left: 5px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> - <i>Mar 2026</i></li>
+                                    <li>AI & Machine Learning (Coursera-Microsoft) <a href="https://coursera.org/share/0031ccfb30a33b9028d6ca351952c21f" target="_blank" style="color: var(--text-primary); font-size: 0.85em; margin-left: 5px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> - <i>Nis 2026</i></li>
                                 </ul>
                             </div>
                         </div>
