@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                                    <h3>Walletly – Smart Expense Tracker | Teamleiter</h3>
+                                    <h3>Walletly – Smart Expense Tracker | Teamleiter <a href="https://github.com/bostnishak/Walletly" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
                                     <span class="cv-meta">Jan 2025 – Mai 2025</span>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
