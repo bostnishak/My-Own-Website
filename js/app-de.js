@@ -50,34 +50,47 @@ document.addEventListener('DOMContentLoaded', () => {
                         <button class="carousel-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
                         <div class="carousel-track">
                             <div class="carousel-card">
-                                <h3>ExpenseGuard</h3>
-                                <p>Entwicklung einer KI-gesteuerten SaaS-Plattform für Ausgabenmanagement und Betrugserkennung (OCR) für B2B-Unternehmen.</p>
-                            </div>
-                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">25. Apr 2026</span>
                                 <h3>AHK Türkiye Karrieretag</h3>
                                 <p>Austausch mit Branchenexperten und Erkundung von Karrieremöglichkeiten auf dem 9. Karrieretag.</p>
                             </div>
                             <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Apr 2026</span>
                                 <h3>Google & Microsoft Zertifizierungen</h3>
                                 <p>Abschluss professioneller Zertifizierungsprogramme in Cybersicherheit und Grundlagen der Künstlichen Intelligenz (KI).</p>
                             </div>
                             <div class="carousel-card">
-                                <h3>Edulera</h3>
-                                <p>Entwicklung eines webbasierten E-Learning-Systems mit automatisierter Zertifizierungslogik basierend auf der Quizleistung.</p>
-                            </div>
-                            <div class="carousel-card">
-                                <h3>Walletly</h3>
-                                <p>Mitarbeit an einer benutzerfreundlichen Anwendung für persönliche Finanzen und smarte Ausgabenverfolgung.</p>
-                            </div>
-                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Mär 2026</span>
                                 <h3>OMDb Filmanwendung</h3>
                                 <p>Erstellung einer responsiven Single Page Application (SPA) unter Verwendung von Vanilla JavaScript und der OMDb REST API.</p>
                             </div>
                             <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Feb 2026 - Heute</span>
+                                <h3>ExpenseGuard</h3>
+                                <p>Entwicklung einer KI-gesteuerten SaaS-Plattform für Ausgabenmanagement und Betrugserkennung (OCR) für B2B-Unternehmen.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2026 - Heute</span>
+                                <h3>Edulera</h3>
+                                <p>Entwicklung eines webbasierten E-Learning-Systems mit automatisierter Zertifizierungslogik basierend auf der Quizleistung.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2026 - Heute</span>
+                                <h3>Chat-Anwendung für PC</h3>
+                                <p>Entwicklung einer Echtzeit-TCP-Messaging-Anwendung mit grafischer Benutzeroberfläche (GUI) unter Verwendung von Python, Sockets und Multi-Threading.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2025 - Mai 2025</span>
+                                <h3>Walletly</h3>
+                                <p>Mitarbeit an einer benutzerfreundlichen Anwendung für persönliche Finanzen und smarte Ausgabenverfolgung.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Sep 2024 - Dez 2024</span>
                                 <h3>GIMBO</h3>
                                 <p>Entwicklung einer Desktop-Anwendung, die das Kurs- und Aufgabenmanagement für Studenten optimiert.</p>
                             </div>
                             <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2024 - Jun 2024</span>
                                 <h3>Pill Reminder (Pillenerinnerung)</h3>
                                 <p>Eine mobile Gesundheitsanwendung, die die Medikamentenverfolgung vereinfacht und das Benutzererlebnis verbessert.</p>
                             </div>
@@ -172,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <ul style="padding-left: 1.2rem; margin: 0; color: var(--text-primary); line-height: 1.6;">
                                     <li>Google Cybersecurity Professional Certificate (Coursera-Google) - <i>Jan 2026</i></li>
                                     <li>KI-Grundlagen (Coursera-Google) - <i>Mär 2026</i></li>
-                                    <li>Microsoft AI & ML (Coursera-Microsoft)</li>
+                                    <li>Microsoft AI & ML (Coursera-Microsoft) - <i>Apr 2026</i></li>
                                 </ul>
                             </div>
                         </div>
@@ -182,7 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>ExpenseGuard – Enterprise KI Ausgaben- & Betrugserkennungsplattform | Leitender Entwickler <a href="https://github.com/bostnishak/ExpenseGuard" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
-                                    <span class="cv-meta">2024 – Heute</span>
+                                    <span class="cv-meta">Feb 2026 – Heute</span>
                                 </div>
                                 <div class="project-image-placeholder" style="margin: 15px 0; max-width: 100%; border-radius: 8px; overflow: hidden; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
                                     <img src="img/expenseguard.png" alt="ExpenseGuard UI" style="width: 100%; display: block;" onerror="this.parentElement.style.display='none'">
@@ -197,6 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>Edulera – Online-Bildungs- & Zertifizierungsplattform <a href="https://github.com/bostnishak/Edulera-the-Course-Helper-Website" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
+                                    <span class="cv-meta">Jan 2026 – Heute</span>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
                                     <li>Entwicklung eines webbasierten E-Learning-Systems mit automatisierter Zertifizierungslogik, das basierend auf der Quizleistung "Teilnahme"- oder "Erfolgs"-Zertifikate generiert.</li>
@@ -217,6 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>OMDb Filmanwendung – SPA <a href="https://github.com/bostnishak/omdb-project" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
+                                    <span class="cv-meta">Mär 2026</span>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
                                     <li>Erstellung einer vollständig responsiven, modularen Single Page Application (SPA), die die OMDb REST API nutzt.</li>
@@ -237,7 +252,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>Pill Reminder – Medikamenten-Tracking-App | Teammitglied <a href="https://github.com/bostnishak/Pill-Reminder-Project-2024-" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
-                                    <span class="cv-meta">Jan 2024 – Mai 2024</span>
+                                    <span class="cv-meta">Jan 2024 – Jun 2024</span>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
                                     <li>Entwicklung von Kernmodulen und Durchführung systematischen Debuggings während des gesamten Codierungszyklus.</li>
@@ -248,6 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>Chat-Anwendung für PC <a href="https://github.com/bostnishak/Chat-application-for-PC" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
+                                    <span class="cv-meta">Jan 2026 – Heute</span>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
                                     <li>Entwicklung einer Echtzeit-TCP-Messaging-Anwendung mit grafischer Benutzeroberfläche (GUI) unter Verwendung von Python, Sockets und Multi-Threading.</li>
