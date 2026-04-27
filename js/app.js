@@ -1,4 +1,29 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Hide loader on initial load
+    const loader = document.getElementById('pageLoader');
+    if (loader) {
+        setTimeout(() => {
+            loader.classList.add('hidden');
+        }, 400); // Let the spinner spin for a bit
+    }
+
+    // Intercept language button clicks for smooth transition
+    const langBtn = document.querySelector('.lang-btn');
+    if (langBtn) {
+        langBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetUrl = langBtn.getAttribute('href');
+            if (loader) {
+                loader.classList.remove('hidden');
+                setTimeout(() => {
+                    window.location.href = targetUrl;
+                }, 500); // Wait for spinner to show before navigating
+            } else {
+                window.location.href = targetUrl;
+            }
+        });
+    }
+
     const mainContent = document.getElementById('main-content');
     const navLinks = document.querySelectorAll('nav a[data-target]');
     const logoLink = document.querySelector('.logo a[data-target]');
