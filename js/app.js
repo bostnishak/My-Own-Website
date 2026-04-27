@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <h2>Extracurricular & Volunteering</h2>
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                                    <h3>9th Career Day (AHK Türkiye) | Attendee</h3>
+                                    <h3>9th Career Day (AHK Türkiye) | Attendee <a href="https://www.linkedin.com/posts/ishakbostan_ahktaesrkiye-kariyergaesnaes-networking-ugcPost-7453851114543910912-ktIu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC9QbZ4BHZkPCJPKyom5pG8uTa7HktNeJoY" target="_blank" style="color: var(--text-primary); font-size: 0.85em; margin-left: 8px;"><i class="fa-brands fa-linkedin-in"></i></a></h3>
                                     <span class="cv-meta">Apr 2026</span>
                                 </div>
                                 <p style="margin-top: 0.5rem;">Engaged with industry professionals and explored career opportunities at the career fair organized by the German-Turkish Chamber of Commerce and Industry.</p>
@@ -316,7 +316,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div id="references" class="cv-section">
                             <h2>References</h2>
                             <div class="cv-item">
-                                <h3>Coşar Baykal</h3>
+                                <h3>Coşar Baykal <a href="https://www.linkedin.com/in/cosarbaykal/" target="_blank" style="color: var(--text-primary); font-size: 0.85em; margin-left: 8px;"><i class="fa-brands fa-linkedin-in"></i></a></h3>
                                 <div class="cv-meta">Chief Architect Director, Product Development | Etiya</div>
                                 <p><a href="mailto:cosar.baykal@etiya.com" style="color: var(--link-color);">cosar.baykal@etiya.com</a></p>
                             </div>
@@ -326,7 +326,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <p><a href="mailto:abdurazzagaliaaburas@beykoz.edu.tr" style="color: var(--link-color);">abdurazzagaliaaburas@beykoz.edu.tr</a></p>
                             </div>
                             <div class="cv-item">
-                                <h3>Mustafa Cem Kasapbaşı</h3>
+                                <h3>Mustafa Cem Kasapbaşı <a href="https://www.linkedin.com/in/mustafa-cem-kasapbaşı-546b692/" target="_blank" style="color: var(--text-primary); font-size: 0.85em; margin-left: 8px;"><i class="fa-brands fa-linkedin-in"></i></a></h3>
                                 <div class="cv-meta">Associate Professor, Department of Computer Engineering | Beykoz University</div>
                                 <p><a href="mailto:mustafacemkasapbasi@beykoz.edu.tr" style="color: var(--link-color);">mustafacemkasapbasi@beykoz.edu.tr</a></p>
                             </div>
