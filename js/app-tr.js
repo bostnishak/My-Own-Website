@@ -56,8 +56,13 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                             <div class="carousel-card">
                                 <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Nis 2026</span>
-                                <h3>Google & Microsoft Sertifikaları</h3>
-                                <p>Siber güvenlik ve yapay zeka (AI) temelleri konularında profesyonel sertifika programlarını tamamladım.</p>
+                                <h3>Microsoft AI & ML Sertifikası</h3>
+                                <p>Microsoft Yapay Zeka ve Makine Öğrenmesi profesyonel sertifika programını başarıyla tamamladım.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Mar 2026</span>
+                                <h3>Google Yapay Zeka Temelleri Sertifikası</h3>
+                                <p>Google Yapay Zeka Temelleri (AI Essentials) profesyonel sertifika programını başarıyla tamamladım.</p>
                             </div>
                             <div class="carousel-card">
                                 <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Mar 2026</span>
@@ -78,6 +83,11 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Oca 2026 - Günümüz</span>
                                 <h3>PC için Sohbet Uygulaması</h3>
                                 <p>Python, Soketler ve Çoklu İş Parçacığı (Multi-threading) kullanarak grafik kullanıcı arayüzüne (GUI) sahip gerçek zamanlı bir TCP mesajlaşma uygulaması geliştirdim.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Oca 2026</span>
+                                <h3>Google Siber Güvenlik Sertifikası</h3>
+                                <p>Google Siber Güvenlik Profesyonel Sertifika programını başarıyla tamamladım.</p>
                             </div>
                             <div class="carousel-card">
                                 <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Oca 2025 - May 2025</span>

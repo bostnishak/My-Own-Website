@@ -56,8 +56,13 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                             <div class="carousel-card">
                                 <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Apr 2026</span>
-                                <h3>Google & Microsoft Certifications</h3>
-                                <p>Completed professional certification programs in cybersecurity and artificial intelligence (AI) fundamentals.</p>
+                                <h3>Microsoft AI & ML Certification</h3>
+                                <p>Completed the Microsoft AI & Machine Learning professional certification program.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Mar 2026</span>
+                                <h3>Google AI Essentials Certification</h3>
+                                <p>Completed the Google AI Essentials professional certification program.</p>
                             </div>
                             <div class="carousel-card">
                                 <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Mar 2026</span>
@@ -78,6 +83,11 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2026 - Present</span>
                                 <h3>Chat Application for PC</h3>
                                 <p>Developed a real-time TCP messaging application with a graphical user interface (GUI) using Python, Sockets, and Multi-threading.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2026</span>
+                                <h3>Google Cybersecurity Certification</h3>
+                                <p>Completed the Google Cybersecurity Professional Certification program.</p>
                             </div>
                             <div class="carousel-card">
                                 <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2025 - May 2025</span>

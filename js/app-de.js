@@ -56,8 +56,13 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                             <div class="carousel-card">
                                 <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Apr 2026</span>
-                                <h3>Google & Microsoft Zertifizierungen</h3>
-                                <p>Abschluss professioneller Zertifizierungsprogramme in Cybersicherheit und Grundlagen der Künstlichen Intelligenz (KI).</p>
+                                <h3>Microsoft AI & ML Zertifizierung</h3>
+                                <p>Erfolgreicher Abschluss des professionellen Zertifizierungsprogramms für Microsoft KI und Maschinelles Lernen.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Mär 2026</span>
+                                <h3>Google AI Essentials Zertifizierung</h3>
+                                <p>Erfolgreicher Abschluss des professionellen Google AI Essentials Zertifizierungsprogramms.</p>
                             </div>
                             <div class="carousel-card">
                                 <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Mär 2026</span>
@@ -78,6 +83,11 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2026 - Heute</span>
                                 <h3>Chat-Anwendung für PC</h3>
                                 <p>Entwicklung einer Echtzeit-TCP-Messaging-Anwendung mit grafischer Benutzeroberfläche (GUI) unter Verwendung von Python, Sockets und Multi-Threading.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2026</span>
+                                <h3>Google Cybersecurity Zertifizierung</h3>
+                                <p>Erfolgreicher Abschluss des professionellen Google Cybersecurity Zertifizierungsprogramms.</p>
                             </div>
                             <div class="carousel-card">
                                 <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2025 - Mai 2025</span>
