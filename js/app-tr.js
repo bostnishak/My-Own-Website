@@ -50,34 +50,47 @@ document.addEventListener('DOMContentLoaded', () => {
                         <button class="carousel-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
                         <div class="carousel-track">
                             <div class="carousel-card">
-                                <h3>ExpenseGuard</h3>
-                                <p>B2B şirketleri için yapay zeka destekli kurumsal masraf yönetimi ve sahtekarlık tespiti (OCR) sağlayan SaaS platformu geliştirdim.</p>
-                            </div>
-                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">25 Nis 2026</span>
                                 <h3>AHK Türkiye Kariyer Günü</h3>
                                 <p>9. Kariyer Günü etkinliğinde sektör profesyonelleriyle bir araya geldim ve kariyer fırsatlarını değerlendirdim.</p>
                             </div>
                             <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Nis 2026</span>
                                 <h3>Google & Microsoft Sertifikaları</h3>
                                 <p>Siber güvenlik ve yapay zeka (AI) temelleri konularında profesyonel sertifika programlarını tamamladım.</p>
                             </div>
                             <div class="carousel-card">
-                                <h3>Edulera</h3>
-                                <p>Test performansına dayalı otomatik sertifikalandırma mantığı içeren web tabanlı bir e-öğrenme sistemi geliştirdim.</p>
-                            </div>
-                            <div class="carousel-card">
-                                <h3>Walletly</h3>
-                                <p>Kullanıcı dostu arayüze sahip bir kişisel finans ve akıllı harcama takip uygulaması üzerinde çalıştım.</p>
-                            </div>
-                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Mar 2026</span>
                                 <h3>OMDb Film Uygulaması</h3>
                                 <p>Saf JavaScript ve OMDb REST API kullanarak duyarlı (responsive) bir Tek Sayfa Uygulaması (SPA) geliştirdim.</p>
                             </div>
                             <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Şub 2026 - Günümüz</span>
+                                <h3>ExpenseGuard</h3>
+                                <p>B2B şirketleri için yapay zeka destekli kurumsal masraf yönetimi ve sahtekarlık tespiti (OCR) sağlayan SaaS platformu geliştirdim.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Oca 2026 - Günümüz</span>
+                                <h3>Edulera</h3>
+                                <p>Test performansına dayalı otomatik sertifikalandırma mantığı içeren web tabanlı bir e-öğrenme sistemi geliştirdim.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Oca 2026 - Günümüz</span>
+                                <h3>PC için Sohbet Uygulaması</h3>
+                                <p>Python, Soketler ve Çoklu İş Parçacığı (Multi-threading) kullanarak grafik kullanıcı arayüzüne (GUI) sahip gerçek zamanlı bir TCP mesajlaşma uygulaması geliştirdim.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Oca 2025 - May 2025</span>
+                                <h3>Walletly</h3>
+                                <p>Kullanıcı dostu arayüze sahip bir kişisel finans ve akıllı harcama takip uygulaması üzerinde çalıştım.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Eyl 2024 - Ara 2024</span>
                                 <h3>GIMBO</h3>
                                 <p>Öğrenciler için ders ve görev yönetimini kolaylaştıran bir masaüstü uygulaması geliştirdim.</p>
                             </div>
                             <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Oca 2024 - Haz 2024</span>
                                 <h3>Pill Reminder (İlaç Hatırlatıcı)</h3>
                                 <p>İlaç takibini kolaylaştıran ve kullanıcı deneyimini iyileştiren bir mobil sağlık uygulaması.</p>
                             </div>
@@ -172,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <ul style="padding-left: 1.2rem; margin: 0; color: var(--text-primary); line-height: 1.6;">
                                     <li>Google Siber Güvenlik Profesyonel Sertifikası (Coursera-Google) - <i>Oca 2026</i></li>
                                     <li>Yapay Zeka Temelleri (Coursera-Google) - <i>Mar 2026</i></li>
-                                    <li>Microsoft AI & ML (Coursera-Microsoft)</li>
+                                    <li>Microsoft AI & ML (Coursera-Microsoft) - <i>Nis 2026</i></li>
                                 </ul>
                             </div>
                         </div>
@@ -182,7 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>ExpenseGuard – Kurumsal Yapay Zeka Masraf ve Sahtekarlık Tespit Platformu | Lider Geliştirici <a href="https://github.com/bostnishak/ExpenseGuard" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
-                                    <span class="cv-meta">2024 – Günümüz</span>
+                                    <span class="cv-meta">Şub 2026 – Günümüz</span>
                                 </div>
                                 <div class="project-image-placeholder" style="margin: 15px 0; max-width: 100%; border-radius: 8px; overflow: hidden; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
                                     <img src="img/expenseguard.png" alt="ExpenseGuard Arayüzü" style="width: 100%; display: block;" onerror="this.parentElement.style.display='none'">
@@ -197,6 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>Edulera – Online Eğitim ve Sertifika Platformu <a href="https://github.com/bostnishak/Edulera-the-Course-Helper-Website" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
+                                    <span class="cv-meta">Oca 2026 – Günümüz</span>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
                                     <li>Test performansına dayalı olarak "Katılım" veya "Başarı" sertifikaları üreten otomatik sertifikalandırma mantığına sahip web tabanlı bir e-öğrenme sistemi geliştirdim.</li>
@@ -217,6 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>OMDb Film Uygulaması – SPA <a href="https://github.com/bostnishak/omdb-project" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
+                                    <span class="cv-meta">Mar 2026</span>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
                                     <li>OMDb REST API kullanan, tamamen duyarlı ve modüler bir Tek Sayfa Uygulaması (SPA) geliştirdim.</li>
@@ -237,7 +252,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>Pill Reminder – İlaç Takip Uygulaması | Takım Üyesi <a href="https://github.com/bostnishak/Pill-Reminder-Project-2024-" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
-                                    <span class="cv-meta">Oca 2024 – May 2024</span>
+                                    <span class="cv-meta">Oca 2024 – Haz 2024</span>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
                                     <li>Temel modülleri geliştirdim ve kodlama yaşam döngüsü boyunca sistematik hata ayıklama işlemlerini gerçekleştirdim.</li>
@@ -248,6 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>PC için Sohbet Uygulaması <a href="https://github.com/bostnishak/Chat-application-for-PC" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
+                                    <span class="cv-meta">Oca 2026 – Günümüz</span>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
                                     <li>Python, Soketler ve Çoklu İş Parçacığı (Multi-threading) kullanarak grafik kullanıcı arayüzüne (GUI) sahip gerçek zamanlı bir TCP mesajlaşma uygulaması geliştirdim.</li>

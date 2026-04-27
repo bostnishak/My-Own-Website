@@ -50,34 +50,47 @@ document.addEventListener('DOMContentLoaded', () => {
                         <button class="carousel-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
                         <div class="carousel-track">
                             <div class="carousel-card">
-                                <h3>ExpenseGuard</h3>
-                                <p>Developed an AI-driven enterprise expense management and fraud detection (OCR) SaaS platform for B2B companies.</p>
-                            </div>
-                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Apr 25, 2026</span>
                                 <h3>AHK Türkiye Career Day</h3>
                                 <p>Engaged with industry professionals and explored career opportunities at the 9th Career Day event.</p>
                             </div>
                             <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Apr 2026</span>
                                 <h3>Google & Microsoft Certifications</h3>
                                 <p>Completed professional certification programs in cybersecurity and artificial intelligence (AI) fundamentals.</p>
                             </div>
                             <div class="carousel-card">
-                                <h3>Edulera</h3>
-                                <p>Developed a web-based e-learning system featuring automated certification logic based on quiz performance.</p>
-                            </div>
-                            <div class="carousel-card">
-                                <h3>Walletly</h3>
-                                <p>Worked on a personal finance and smart expense tracking application with a user-friendly interface.</p>
-                            </div>
-                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Mar 2026</span>
                                 <h3>OMDb Movie Application</h3>
                                 <p>Built a responsive Single Page Application (SPA) utilizing vanilla JavaScript and the OMDb REST API.</p>
                             </div>
                             <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Feb 2026 - Present</span>
+                                <h3>ExpenseGuard</h3>
+                                <p>Developed an AI-driven enterprise expense management and fraud detection (OCR) SaaS platform for B2B companies.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2026 - Present</span>
+                                <h3>Edulera</h3>
+                                <p>Developed a web-based e-learning system featuring automated certification logic based on quiz performance.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2026 - Present</span>
+                                <h3>Chat Application for PC</h3>
+                                <p>Developed a real-time TCP messaging application with a graphical user interface (GUI) using Python, Sockets, and Multi-threading.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2025 - May 2025</span>
+                                <h3>Walletly</h3>
+                                <p>Worked on a personal finance and smart expense tracking application with a user-friendly interface.</p>
+                            </div>
+                            <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Sep 2024 - Dec 2024</span>
                                 <h3>GIMBO</h3>
                                 <p>Developed a desktop application that streamlines course and task management for students.</p>
                             </div>
                             <div class="carousel-card">
+                                <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Jan 2024 - Jun 2024</span>
                                 <h3>Pill Reminder</h3>
                                 <p>A mobile health application that simplifies medication tracking and improves the user experience.</p>
                             </div>
@@ -172,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <ul style="padding-left: 1.2rem; margin: 0; color: var(--text-primary); line-height: 1.6;">
                                     <li>Google Cybersecurity Professional Certificate (Coursera-Google) - <i>Jan 2026</i></li>
                                     <li>AI Essentials (Coursera-Google) - <i>Mar 2026</i></li>
-                                    <li>Microsoft AI & ML (Coursera-Microsoft)</li>
+                                    <li>Microsoft AI & ML (Coursera-Microsoft) - <i>Apr 2026</i></li>
                                 </ul>
                             </div>
                         </div>
@@ -182,7 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>ExpenseGuard – Enterprise AI Expense & Fraud Detection Platform | Lead Developer <a href="https://github.com/bostnishak/ExpenseGuard" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
-                                    <span class="cv-meta">2024 – Present</span>
+                                    <span class="cv-meta">Feb 2026 – Present</span>
                                 </div>
                                 <div class="project-image-placeholder" style="margin: 15px 0; max-width: 100%; border-radius: 8px; overflow: hidden; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
                                     <img src="img/expenseguard.png" alt="ExpenseGuard UI" style="width: 100%; display: block;" onerror="this.parentElement.style.display='none'">
@@ -197,6 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>Edulera – Online Education & Certification Platform <a href="https://github.com/bostnishak/Edulera-the-Course-Helper-Website" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
+                                    <span class="cv-meta">Jan 2026 – Present</span>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
                                     <li>Developed a web-based e-learning system featuring automated certification logic that generates "Participation" or "Success" certificates based on quiz performance.</li>
@@ -217,6 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>OMDb Movie Application – SPA <a href="https://github.com/bostnishak/omdb-project" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
+                                    <span class="cv-meta">Mar 2026</span>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
                                     <li>Built a fully responsive, modular Single Page Application (SPA) consuming the OMDb REST API.</li>
@@ -237,7 +252,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>Pill Reminder – Medication Tracking App | Team Member <a href="https://github.com/bostnishak/Pill-Reminder-Project-2024-" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
-                                    <span class="cv-meta">Jan 2024 – May 2024</span>
+                                    <span class="cv-meta">Jan 2024 – Jun 2024</span>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
                                     <li>Developed core modules and performed systematic debugging throughout the coding lifecycle.</li>
@@ -248,6 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                                     <h3>Chat Application for PC <a href="https://github.com/bostnishak/Chat-application-for-PC" target="_blank" style="color: var(--text-primary); font-size: 0.9em; margin-left: 8px;"><i class="fa-brands fa-github"></i></a></h3>
+                                    <span class="cv-meta">Jan 2026 – Present</span>
                                 </div>
                                 <ul style="padding-left: 1.2rem; margin-top: 0.5rem; color: var(--text-primary); line-height: 1.6;">
                                     <li>Developed a real-time TCP messaging application with a graphical user interface (GUI) using Python, Sockets, and Multi-threading.</li>
