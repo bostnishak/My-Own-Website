@@ -22,7 +22,7 @@ const translations = {
                         <div class="carousel-track">
                             <div class="carousel-card">
                                 <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">Apr 25, 2026</span>
-                                <h3>AHK Türkiye Career Day</h3>
+                                <h3>AHK Turkey Career Day</h3>
                                 <p>Engaged with industry professionals and explored career opportunities at the 9th Career Day event.</p>
                             </div>
                             <div class="carousel-card">
@@ -256,7 +256,7 @@ const translations = {
                             <h2>Extracurricular & Volunteering</h2>
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                                    <h3>9th Career Day (AHK Türkiye) | Attendee <a href="https://www.linkedin.com/posts/ishakbostan_ahktaesrkiye-kariyergaesnaes-networking-ugcPost-7453851114543910912-ktIu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC9QbZ4BHZkPCJPKyom5pG8uTa7HktNeJoY" target="_blank" style="color: var(--text-primary); font-size: 0.85em; margin-left: 8px;"><i class="fa-brands fa-linkedin"></i></a></h3>
+                                    <h3>9th Career Day (AHK Turkey) | Attendee <a href="https://www.linkedin.com/posts/ishakbostan_ahktaesrkiye-kariyergaesnaes-networking-ugcPost-7453851114543910912-ktIu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC9QbZ4BHZkPCJPKyom5pG8uTa7HktNeJoY" target="_blank" style="color: var(--text-primary); font-size: 0.85em; margin-left: 8px;"><i class="fa-brands fa-linkedin"></i></a></h3>
                                     <span class="cv-meta">Apr 2026</span>
                                 </div>
                                 <p style="margin-top: 0.5rem;">Engaged with industry professionals and explored career opportunities at the career fair organized by the German-Turkish Chamber of Commerce and Industry.</p>
@@ -638,7 +638,7 @@ const translations = {
                         <div class="carousel-track">
                             <div class="carousel-card">
                                 <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; font-weight: 500;">25. Apr 2026</span>
-                                <h3>AHK Türkiye Karrieretag</h3>
+                                <h3>AHK Türkei Karrieretag</h3>
                                 <p>Austausch mit Branchenexperten und Erkundung von Karrieremöglichkeiten auf dem 9. Karrieretag.</p>
                             </div>
                             <div class="carousel-card">
@@ -872,7 +872,7 @@ const translations = {
                             <h2>Außerschulische Aktivitäten & Freiwilligenarbeit</h2>
                             <div class="cv-item">
                                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                                    <h3>9. Karrieretag (AHK Türkiye) | Teilnehmer <a href="https://www.linkedin.com/posts/ishakbostan_ahktaesrkiye-kariyergaesnaes-networking-ugcPost-7453851114543910912-ktIu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC9QbZ4BHZkPCJPKyom5pG8uTa7HktNeJoY" target="_blank" style="color: var(--text-primary); font-size: 0.85em; margin-left: 8px;"><i class="fa-brands fa-linkedin"></i></a></h3>
+                                    <h3>9. Karrieretag (AHK Türkei) | Teilnehmer <a href="https://www.linkedin.com/posts/ishakbostan_ahktaesrkiye-kariyergaesnaes-networking-ugcPost-7453851114543910912-ktIu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC9QbZ4BHZkPCJPKyom5pG8uTa7HktNeJoY" target="_blank" style="color: var(--text-primary); font-size: 0.85em; margin-left: 8px;"><i class="fa-brands fa-linkedin"></i></a></h3>
                                     <span class="cv-meta">Apr 2026</span>
                                 </div>
                                 <p style="margin-top: 0.5rem;">Austausch mit Branchenexperten und Erkundung von Karrieremöglichkeiten auf der Karrieremesse der Deutsch-Türkischen Industrie- und Handelskammer.</p>
