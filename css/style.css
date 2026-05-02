@@ -728,7 +728,15 @@ footer {
     border: 1px solid rgba(0,0,0,0.08);
 }
 
-.lang-dropdown:hover .dropdown-menu {
+/* Desktop: hover to open */
+@media (hover: hover) {
+    .lang-dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+/* JS-controlled toggle (mobile + keyboard) */
+.lang-dropdown.open .dropdown-menu {
     display: block;
 }
 

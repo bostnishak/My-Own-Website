@@ -13,16 +13,47 @@ document.addEventListener('DOMContentLoaded', () => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             const targetUrl = link.getAttribute('href');
+            // Close dropdown
+            document.querySelectorAll('.lang-dropdown').forEach(d => d.classList.remove('open'));
             if (loader) {
                 loader.classList.remove('hidden');
                 setTimeout(() => {
                     window.location.href = targetUrl;
-                }, 500); // Wait for spinner to show before navigating
+                }, 500);
             } else {
                 window.location.href = targetUrl;
             }
         });
     });
+
+    // Language dropdown toggle (touch & click friendly)
+    const langDropdowns = document.querySelectorAll('.lang-dropdown');
+    langDropdowns.forEach(dropdown => {
+        const btn = dropdown.querySelector('.lang-btn');
+        if (!btn) return;
+
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            const isOpen = dropdown.classList.contains('open');
+            // Close all other dropdowns first
+            langDropdowns.forEach(d => d.classList.remove('open'));
+            // Toggle this one
+            if (!isOpen) dropdown.classList.add('open');
+        });
+    });
+
+    // Close dropdown when clicking/touching outside
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.lang-dropdown')) {
+            langDropdowns.forEach(d => d.classList.remove('open'));
+        }
+    });
+    document.addEventListener('touchstart', (e) => {
+        if (!e.target.closest('.lang-dropdown')) {
+            langDropdowns.forEach(d => d.classList.remove('open'));
+        }
+    }, { passive: true });
 
     const mainContent = document.getElementById('main-content');
     const navLinks = document.querySelectorAll('nav a[data-target]');
