@@ -34,13 +34,24 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: rgba(244, 239, 230, 0.9); /* Frost glass effect matching var(--bg-color) */
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    /* No backdrop-filter here — it would create a stacking context
+       that traps the dropdown behind main content.
+       Use ::before pseudo-element instead. */
+    background-color: transparent;
     padding: 1.5rem 2rem;
-    border-bottom: none; /* Removed the line */
+    border-bottom: none;
     width: 100%;
     overflow: visible;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-color: rgba(244, 239, 230, 0.92);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .header-inner {
